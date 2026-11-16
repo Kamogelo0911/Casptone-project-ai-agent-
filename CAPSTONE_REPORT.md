@@ -1,9 +1,5 @@
 # Security Evaluation of a Tool-Using AI Agent Against Prompt Injection
 
-**Student:** [Your name]  
-**Programme / module:** [Complete]  
-**Supervisor:** [Complete]  
-**Date:** [Complete]
 
 ## Abstract
 This project develops a local AI customer-support agent and evaluates security risks associated with prompt injection and tool access. The prototype uses Python, an Ollama-hosted language model, and an SQLite database containing synthetic customer and support-ticket records. It compares an intentionally vulnerable baseline with a version that enforces record-level authorisation and input validation in application code. A repeatable test suite measures whether unauthorised record access and ticket updates are allowed or blocked. The project is a controlled educational demonstration and does not use real customer data.
